@@ -33,9 +33,9 @@ top_10_items = items[:10]
 k = [item[0] for item in top_10_items]
 v = [item[1] for item in top_10_items]
 plt.bar(k, v)
-plt.xlabel('Language')
+plt.xlabel('Country')
 plt.ylabel('Number of tweets')
-plt.title('#coronavirus')
+plt.title('#코로나바이러스')
 if args.input_path[-1] == 'g':
     plt.savefig(args.key[1:] + '_lang.png')
 else:
