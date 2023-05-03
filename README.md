@@ -1,6 +1,6 @@
 # Coronavirus twitter analysis
 
-You will scan all geotagged tweets sent in 2020 to monitor for the spread of the coronavirus on social media.
+In this repository I scanned all geotagged tweets sent in 2020 to monitor for the spread of the coronavirus on Twitter. About 2% of all tweets are geotagged everyday. I am working with about 1.1 billion tweets in this database. I learned how to work with large scale datasets effectively. I also worked with multilingual text such as English and Korean in my analysis. I used shell the vim environment and of course python to successfully generate 4 png graphs. I also learned to use the MapReduce divide and conquer paradigm to create parallel code. In this project I demonstrated how to filter, reduce and visualize large datasets into easy visuals like the graphs below!
 
 **Learning Objectives:**
 
@@ -8,21 +8,7 @@ You will scan all geotagged tweets sent in 2020 to monitor for the spread of the
 1. work with multilingual text
 1. use the MapReduce divide-and-conquer paradigm to create parallel code
 
-## Background
 
-**About the Data:**
-
-Approximately 500 million tweets are sent everyday.
-Of those tweets, about 2% are *geotagged*.
-That is, the user's device includes location information about where the tweets were sent from.
-The lambda server's `/data/Twitter dataset` folder contains all geotagged tweets that were sent in 2020.
-In total, there are about 1.1 billion tweets in this dataset.
-
-The tweets are stored as follows.
-The tweets for each day are stored in a zip file `geoTwitterYY-MM-DD.zip`,
-and inside this zip file are 24 text files, one for each hour of the day.
-Each text file contains a single tweet per line in JSON format.
-JSON is a popular format for storing data that is closely related to python dictionaries.
 
 ![Top 10 Countries that Tweeted the word Coronavirus in the Year 2020](coronavirus_country.png)
 ![Top 10 Languages that Tweeted the word Coronavirus in the Year 2020](coronavirus_lang.png)
