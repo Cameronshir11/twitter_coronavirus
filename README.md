@@ -24,8 +24,8 @@ and inside this zip file are 24 text files, one for each hour of the day.
 Each text file contains a single tweet per line in JSON format.
 JSON is a popular format for storing data that is closely related to python dictionaries.
 
-![Image Description](coronavirus_country.png)
-![Image Description](path/to/your/image.png)
-![Image Description](path/to/your/image.png)
-![Image Description](path/to/your/image.png)
-![Image Description](path/to/your/image.png)
+![Top 10 Countries that Tweeted the word Coronavirus in the Year 2020](coronavirus_country.png)
+![Top 10 Languages that Tweeted the word Coronavirus in the Year 2020](coronavirus_lang.png)
+![Top 10 Countries that Tweeted the word 코로나바이러스 in the Year 2020](코로나바이러스_country.png)
+![Top 10 Languages that Tweeted the word 코로나바이러스 in the Year 2020](코로나바이러스_lang.png)
+![Usuage of the Word coronavirus, docter, and virus in the Year 2020](myplot5.png)
