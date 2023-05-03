@@ -15,7 +15,6 @@ parser.add_argument('--keys', nargs='+', required=True)
 args = parser.parse_args()
 
 input_files = glob(args.input_dir + '/*')
-
 for key in args.keys:
     y_axis = []
     total = defaultdict(lambda: Counter())
