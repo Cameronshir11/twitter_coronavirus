@@ -36,8 +36,10 @@ values = values[::-1]
 plt.bar(range(len(keys)), values)
 plt.xticks(range(len(keys)), keys)
 if args.input_path[-1] == 'g':
+    plt.title(f'Number of Tweets by Language')
     plt.xlabel('Language')
 else:
+    plt.title(f'Number of Tweets by Country')
     plt.xlabel('Country')
 if args.percent:
     plt.ylabel('Percentage')
