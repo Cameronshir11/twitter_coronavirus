@@ -32,11 +32,25 @@ import matplotlib.pyplot as plt
 top_10_items = items[:10]
 k = [item[0] for item in top_10_items]
 v = [item[1] for item in top_10_items]
+index = range(len(k))[::-1]
 plt.bar(k, v)
-plt.xlabel('Language')
-plt.ylabel('Number of tweets')
+
+if args.input_path == "reduced.lang":
+    plt.title(f'Twitter Usage of {args.key} by Language in 2020')
+    plt.xlabel('Language')
+    plt.ylabel('Number of tweets')
+    plt.show()
+    plt.savefig(f'lang {args.key} barchart.png')
+else:
+    plt.title(f'Twitter Usage of {args.key} by Country in 2020')
+    plt.xlabel('Country')
+    plt.ylabel('Number of tweets')
+    plt.show()
+    plt.savefig(f'lang {args.key} barchart.png')
+'''    
 plt.title('#coronavirus in Korean')
 if args.input_path[-1] == 'g':
     plt.savefig(args.key[1:] + '_lang.png')
 else:
     plt.savefig(args.key[1:] + '_country.png')
+'''
