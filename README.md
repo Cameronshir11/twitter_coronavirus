@@ -5,13 +5,13 @@ In this repository I scanned all geotagged tweets sent in 2020 to monitor for th
 
 
 
-
+Top 10 Countries that Tweeted the word Coronavirus in the Year 2020
 ![Top 10 Countries that Tweeted the word Coronavirus in the Year 2020](coronavirus_country.png)
-
+Top 10 Languages that Tweeted the word Coronavirus in the Year 2020
 ![Top 10 Languages that Tweeted the word Coronavirus in the Year 2020](coronavirus_lang.png)
-
+Top 10 Countries that Tweeted the word 코로나바이러스 in the Year 2020
 ![Top 10 Countries that Tweeted the word 코로나바이러스 in the Year 2020](코로나바이러스_country.png)
-
+Top 10 Languages that Tweeted the word 코로나바이러스 in the Year 2020
 ![Top 10 Languages that Tweeted the word 코로나바이러스 in the Year 2020](코로나바이러스_lang.png)
-
-![Usuage of the Word coronavirus, docter, and virus in the Year 2020](myplot5.png)
+Usage of the Word coronavirus, doctor, and virus in the Year 2020
+![Usage of the Word coronavirus, doctor, and virus in the Year 2020](myplot5.png)
